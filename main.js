@@ -15,7 +15,7 @@ function onlyOdds(input) {
 function onlyEvens(input) {
   const output = [];
 
-for (let i = 0; i < input.length, i++;) { 
+for (let i = 0; i < input.length; i++) { 
   if (input[i] % 2 === 0){
     output.push(input[i])
   }
@@ -37,8 +37,8 @@ function shortNamesOnly(input) {
 function dNames(input) {
   const output = []
   
-  for (let i = 7; i < input.length; i++) {
-    if (input[i]){
+  for (let i = 0; i < input.length; i++) {
+    if (input[i].startWith === 'd' ){
       output.push(input[i])
     }
   }

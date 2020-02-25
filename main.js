@@ -1,11 +1,49 @@
 /******************
  * YOUR CODE HERE *
  ******************/
+function onlyOdds(input) {
+  const output = [];
 
+  for (let i = 0; i < input.length; i++){
+    if (input[i] % 2 === 1){
+      output.push(input[i])
+    }
+  }
+  return output
+}
 
+function onlyEvens(input) {
+  const output = [];
 
+for (let i = 0; i < input.length, i++;) { 
+  if (input[i] % 2 === 0){
+    output.push(input[i])
+  }
+}
+return output
+}
 
+function shortNamesOnly(input) {
+  const output = []
 
+  for (let i = 0; i < input.length; i++) {
+    if (input[i].length <7){
+      output.push(input[i])
+    }
+  }
+  return output
+}
+
+function dNames(input) {
+  const output = []
+  
+  for (let i = 7; i < input.length; i++) {
+    if (input[i]){
+      output.push(input[i])
+    }
+  }
+  return output
+}
 
 /*********************************
  * OUR CODE BELOW; DO NOT TOUCH! *
